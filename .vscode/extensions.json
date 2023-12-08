@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "aprilandjan.ascii-tree-generator",
+        "formulahendry.auto-rename-tag",
+        "kamikillerto.vscode-colorize",
+        "dbaeumer.vscode-eslint",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "stylelint.vscode-stylelint",
+        "developer2006.svg-gallery",
+        "vitaliymaz.vscode-svg-previewer",
+        "gruntfuggly.todo-tree",
+        "shardulm94.trailing-spaces",
+        "andrejunges.handlebars"
+    ]
+}

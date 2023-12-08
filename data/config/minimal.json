@@ -1,0 +1,16 @@
+{
+  "options": {
+    "showFolderExpanded": true,
+    "inheritFileNames": false,
+    "inheritFolderNames": false,
+    "inheritFileExtensions": false
+  },
+  "defaults": {
+    "file": "file",
+    "folder": "folder",
+    "folderExpanded": "folder-open"
+  },
+  "fileNames": {},
+  "fileExtensions": {},
+  "folderNames": {}
+}

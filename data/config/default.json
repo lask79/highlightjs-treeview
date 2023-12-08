@@ -1,0 +1,55 @@
+{
+  "options": {
+    "showFolderExpanded": true,
+    "inheritFileNames": false,
+    "inheritFolderNames": false,
+    "inheritFileExtensions": false
+  },
+  "defaults": {
+    "file": "file",
+    "folder": "folder",
+    "folderExpanded": "folder-open"
+  },
+  "fileNames": {
+    ".editorconfig": "editorconfig",
+    ".eslintrc": "eslint",
+    ".gitignore": "git",
+    ".gitlab-ci.yml": "gitlab",
+    ".nvmrc": "nodejs",
+    ".stylelintrc": "stylelint",
+    "bun.lockb": "bun",
+    "LICENSE.md": "certificate",
+    "LICENSE": "certificate",
+    "package-lock.json": "nodejs",
+    "package.json": "nodejs"
+  },
+  "fileExtensions": {
+    "ad": "asciidoc",
+    "adoc": "asciidoc",
+    "cjs": "javascript",
+    "css": "css",
+    "hbs": "handlebars",
+    "js": "javascript",
+    "json": "json",
+    "jsx": "javascript",
+    "md": "markdown",
+    "mjs": "javascript",
+    "svg": "svg",
+    "yml": "yaml"
+  },
+  "folderNames": {
+    ".vscode": "folder-vscode-open",
+    "css": "folder-css-open",
+    "dist": "folder-dist-open",
+    "docs": "folder-docs-open",
+    "helpers": "folder-helper-open",
+    "images": "folder-images-open",
+    "img": "folder-images-open",
+    "js": "folder-javascript-open",
+    "layout": "folder-layout-open",
+    "layouts": "folder-layout-open",
+    "lib": "folder-lib-open",
+    "partials": "folder-include-open",
+    "vendor": "folder-lib-open"
+  }
+}

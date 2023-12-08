@@ -1,0 +1,8 @@
+.editorconfig
+.eslintrc
+.npmignore
+.stylelintrc
+data/
+lib/
+rollup.config.js
+*.tgz

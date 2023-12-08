@@ -1,0 +1,24 @@
+{
+  "options": {
+    "showFolderExpanded": true,
+    "inheritFileNames": true,
+    "inheritFolderNames": true,
+    "inheritFileExtensions": true
+  },
+  "defaults": {
+    "file": "file",
+    "folder": "folder",
+    "folderExpanded": "folder-open"
+  },
+  "fileNames": {
+    ".gitlab-ci.yml": "gitlab",
+    ".gitlab_ci.yml": "gitlab",
+    "LICENSE.md": "certificate",
+    "LICENSE": "certificate"
+  },
+  "fileExtensions": {
+    "js": "javascript",
+    "yml": "yaml"
+  },
+  "folderNames": {}
+}

@@ -1,0 +1,59 @@
+module.exports = function (hljs) {
+  /**
+   * Treeview syntax highlighting based on highlight.js
+   * Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
+   * https://github.com/asciidocfx/highlight-treeview.js
+   */
+  /* eslint-disable no-useless-escape */
+  return {
+    contains: [
+      {
+        className: 'folder-last-branch win',
+        begin: /(\\|\└)(\-|\─){3}/,
+        relevance: 0,
+      },
+      {
+        className: 'folder-last-branch',
+        begin: /(\`|\└)(\-|\─){2}/,
+        relevance: 0,
+      },
+      {
+        className: 'folder-branch win',
+        begin: /(\-|\─){3}/,
+        relevance: 0,
+      },
+      {
+        className: 'folder-branch',
+        begin: /(\-|\─){2}/,
+        relevance: 0,
+      },
+      {
+        className: 'tvline',
+        begin: /\||\¦|\│|\+|\├/,
+        relevance: 0,
+      },
+      {
+        className: 'tvline-hash',
+        begin: '#',
+        relevance: 0,
+      },
+      {{#each hljsRules}}
+      {
+        className: '{{this.className}}',
+        begin: {{{this.begin}}},
+        relevance: {{this.relevance}},
+      },
+      {{/each}}
+      {
+        className: 'folder folder',
+        begin: /[^ \n\t  ].+(?<!\.\w+)$/,
+        relevance: 0,
+      },
+      {
+        className: 'file file',
+        begin: /(?<=^|\s)\.[\w.-]+|[\w.-]+\.\w+/g,
+        relevance: 0,
+      },
+    ],
+  }
+}
