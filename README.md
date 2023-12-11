@@ -1,4 +1,4 @@
-# highlights-treeview
+# highlightjs-treeview
 
 This highlight.js extensions renders filetrees instead of code. Input formats are:
 
