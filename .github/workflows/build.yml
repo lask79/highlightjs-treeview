@@ -1,0 +1,32 @@
+name: Build with Bun and Node.js
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-with-bun:
+    runs-on: ubuntu-latest
+    container:
+      image: oven/bun:latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies with Bun
+      run: bun install
+    - name: Run build script with Bun
+      run: bun run build
+
+  build-with-node:
+    runs-on: ubuntu-latest
+    container:
+      image: node:16
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies with npm
+      run: npm install
+    - name: Run build script with npm
+      run: npm run build

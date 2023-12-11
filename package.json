@@ -33,7 +33,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "build": "bunx --bun rollup -c"
+    "build": "npx rollup -c"
   },
   "devDependencies": {
     "rollup": "^3.29.4",
