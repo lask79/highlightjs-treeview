@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-treeview",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "type": "commonjs",
   "author": {
     "name": "Lasse Knudsen",
@@ -24,10 +24,7 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "dist",
-    "docs",
-    "LICENSE",
-    "README.md"
+    "dist"
   ],
   "engines": {
     "node": ">=16.0.0"
