@@ -6,7 +6,7 @@ This highlight.js extensions renders filetrees instead of code. Input formats ar
 * Tabs-based indented trees
 * Hash-based indented trees
 
-This extenions uses by default the [material-icons-theme](https://www.npmjs.com/package/material-icon-theme) by PKief that is also used in VSCode.
+This extenions uses by default the [material-icons-theme](https://www.npmjs.com/package/material-icon-theme) by PKief that can also be used in VSCode.
 
 ## Features
 
