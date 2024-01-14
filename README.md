@@ -1,6 +1,9 @@
 # highlightjs-treeview
 
-This highlight.js extensions renders filetrees instead of code. Input formats are:
+__⚠️WARNING:__
+This project is not maintained anymore. If you would like to use a treeview in Asciidoctor please check out: [asciidoctor-treeview](https://github.com/lask79/asciidoctor-treeview). It offers the same features and more without highlight.js.
+
+This highlight.js extensions renders filetrees i.nstead of code. Input formats are:
 
 * AsciiTree
 * Tabs-based indented trees
